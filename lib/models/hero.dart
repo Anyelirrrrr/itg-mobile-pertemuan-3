@@ -33,7 +33,7 @@ class HeroRpg {
         baseHp = 50,
         baseMp = 20;
 
-  // Factory: bikin object dari Map/JSON
+  // Factory: bikin object dari Map/JSON.
   factory HeroRpg.fromJson(Map<String, dynamic> json) {
     final jobString = (json['job'] as String?) ?? 'warrior';
 
